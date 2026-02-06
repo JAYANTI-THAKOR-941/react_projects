@@ -31,7 +31,11 @@ const Products = () => {
     if (loading) return <h2>Loading...!!</h2>
     if (error) return <h2>{error}</h2>
     return (
-        <div className='product-container'>
+       <>
+       <div className="title">
+        <h1>Explore Our Products</h1>
+       </div>
+         <div className='product-container'>
             {
                 products.map((product) => (
                     <div className="product-card" key={product.id}>
@@ -48,6 +52,7 @@ const Products = () => {
                 ))
             }
         </div>
+       </>
     )
 }
 
