@@ -1,0 +1,23 @@
+.hero{
+    height: 90vh;
+    text-align: center;
+    align-content: center;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,0.5)),url('https://images.pexels.com/photos/986772/pexels-photo-986772.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.hero h1{
+    font-size: 60px;
+}
+.hero p{
+    font-size: 22px;
+    margin: 14px auto;
+    width: 50%;
+}
+.hero button{
+    padding: 14px 28px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
