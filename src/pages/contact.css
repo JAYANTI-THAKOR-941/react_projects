@@ -1,0 +1,14 @@
+.contact-form{
+    align-items: center;
+    display: flex;
+    margin: 5%;
+    width: 600px;
+}
+.btn{
+    padding: 10px;
+    margin-left: 20px;
+}
+input{
+    padding: 10px;
+    width: 80%;
+}
