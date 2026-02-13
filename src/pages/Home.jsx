@@ -2,6 +2,7 @@ import './Home.css'
 import '../components/style.css';
 import Card from '../components/Card';
 import techServices from '../data/services.js'
+import List from '../components/List.jsx';
 const Home = ()=>{
     return(
         <>
@@ -11,6 +12,9 @@ const Home = ()=>{
                 <button>Explore Services</button>
             </div>
          <Card services={techServices}/>
+
+         <List/>
+
         </>
     )
 }

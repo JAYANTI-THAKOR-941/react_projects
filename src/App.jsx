@@ -9,6 +9,7 @@ import ProductDescription from "./pages/ProductDescription";
 import Login from "./pages/Login";
 import AdminDashboard from "./pages/AdminDashboard";
 import Contact from "./pages/Contact";
+import ProductManagement from "./components/ProductManagement";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home/>}></Route>
+        <Route path="/manage-product" element={<ProductManagement/>}></Route>
         <Route path="/services" element={<Services/>}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
